@@ -1,0 +1,48 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+// здесь можно переопределять стили
+
+$btn-color: #A73D61;
+$btn-hover: #1F6173;
+.bg-light {
+  background-color: transparent !important;
+}
+
+$marata_bg: #D29EB0; //66
+$kuzn_bg: #CCD7DD;//100
+$teleg_bg: rgba(228, 205, 181, 1); //67%
+$nevsk_bg: #BDB9A5;//81%
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgba(0, 0, 0, 0.4);
+  }
+
+.btn-warning {
+  color: white;
+  background-color: $btn-color;
+  font-size: 20px;
+  font-weight: bold;
+  border: white solid 2px;
+  width: 290px;
+  padding: 7px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 0rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.shadow {
+box-shadow: 20px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-warning:hover {
+  color: white;
+  background-color: $btn-hover;
+  border-color: white;
+}
+
+.text-muted {
+  color: black !important;
+}

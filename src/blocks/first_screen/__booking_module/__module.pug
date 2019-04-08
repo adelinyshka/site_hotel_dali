@@ -1,0 +1,24 @@
+mixin module()
+	.container.mt-5
+		.row
+			.col-4.__module.shadow.text-center.p-3
+				form
+					legend.text-center.font_legend.d-inline.pb-3.pt-3 Найдите подходящий вариант со скидкой
+					.row.justify-content-center
+						.col-10.mb-3
+							label.help.text-left(for='choose') Выберите отель или квартиру
+							input#choose.form-control(type='text' required)
+					.row.text-center.justify-content-center
+						.col-5
+							label.help(for='arrival') Дата заезда
+						.col-5
+							label.help(for='departure') Дата выезда
+					.row.text-center.justify-content-center
+						.col-5
+							input#arrival.p-1(type='date' required)
+						.col-5
+							input#departure.p-1(type='date' required)
+					.row.justify-content-center
+						.col-10
+							button.btn.btn-warning(type='button') ЗАБРОНИРОВАТЬ
+							small.form-text.text-muted.pb-3.small-text-color В цену на сайте уже включена скидка

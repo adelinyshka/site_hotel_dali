@@ -1,0 +1,20 @@
+//- впишите необходимые данные в переменные vars
+block vars
+	- var title2= 'Dali апарт';
+	- var description2= 'Квартиры и апарт-отели в ПЕтербурге';
+	- var charset2= 'UTF-8'
+	- var keywords2= 'апарт-отель, апартаменты, снять, Петербург';
+	- var stylesheet2= '.blocks/template/template.scss'
+
+doctype html
+html(lang='ru')
+	head
+		meta(charset=charset2)
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(http-equiv='X-UA-Compatible', content='ie=edge')
+		meta(name='description' content=description2)
+		meta(name='keywords' content =keywords2)
+		title #{title2}
+		link(rel='stylesheet', href=stylesheet2)
+	body
+		block content
