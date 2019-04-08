@@ -1,0 +1,12 @@
+mixin review(about, date, text, author )
+			.col-3
+				.card
+					.card-body
+						h5.card-title.text-center.reviews__block-review-tex= about
+						h6.card-subtitle.text-center.mb-2.text-muted= date
+						p.card-text.mb-2.p-3= text
+						.row
+							.col-4.offset-4
+								.card-text.reviews__block-review-author= author
+							.col-4
+								.reviews__quotes.float-right
