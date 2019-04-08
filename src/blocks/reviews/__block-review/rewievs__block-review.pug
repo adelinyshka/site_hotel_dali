@@ -1,12 +1,15 @@
+include __rating/review__rating
+
 mixin review(about, date, text, author )
 			.col-3
+				+r10()
 				.card
 					.card-body
-						h5.card-title.text-center.reviews__block-review-tex= about
-						h6.card-subtitle.text-center.mb-2.text-muted= date
-						p.card-text.mb-2.p-3= text
+						h5.card-title.text-center.reviews__block-review-about= about
+						h6.card-subtitle.text-center.mb-2.reviews__block-review-date= date
+						p.card-text.mb-2.p-3.reviews__block-review-text= text
 						.row
-							.col-4.offset-4
+							.col-4.offset-4.text-center
 								.card-text.reviews__block-review-author= author
 							.col-4
 								.reviews__quotes.float-right
