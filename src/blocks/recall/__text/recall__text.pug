@@ -1,0 +1,10 @@
+include ../../../blocks/button/button.pug
+mixin recall__text(title, subtitle, smallText)
+	.offset-6.col-6.text-center
+		.m-5
+			h4.recall__title= title
+			.recall__subtitle.m-3= subtitle
+			.recall__action.m-3
+				.recall__form-sms action
+			+button('ЗАБРОНИРОВАТЬ')
+			.recall__small-text.mt-5= smallText

@@ -1,3 +1,4 @@
+include ../../../blocks/button/button.pug
 mixin disc_mod()
 	.disc_mod
 		.container-fluid
@@ -5,5 +6,5 @@ mixin disc_mod()
 				.offset-8.col-4.__module.p-3.mt-4.mb-4.text-center.shadow
 					.discount__header--style.p-2.font_legend АКЦИЯ
 					p.discount__text--style Забронируйте на сайте со скидкой 10%
-					button.btn.btn-warning(type='button') ЗАБРОНИРОВАТЬ
+					+button('ОТПРАВИТЬ')
 					small.form-text.text-muted.pb-3.small-text-color.pl-1 В цену на сайте уже включена скидка
