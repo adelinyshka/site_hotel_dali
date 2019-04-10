@@ -1,10 +1,10 @@
 //- впишите необходимые данные в переменные vars
 block vars
 	- var title2= 'Dali апарт';
-	- var description2= 'Квартиры и апарт-отели в ПЕтербурге';
+	- var description2= 'Квартиры и апарт-отели в Петербурге';
 	- var charset2= 'UTF-8'
 	- var keywords2= 'апарт-отель, апартаменты, снять, Петербург';
-	- var stylesheet2= '.blocks/template/template.scss'
+	- var stylesheet2= 'template.scss'
 
 doctype html
 html(lang='ru')
@@ -16,5 +16,13 @@ html(lang='ru')
 		meta(name='keywords' content =keywords2)
 		title #{title2}
 		link(rel='stylesheet', href=stylesheet2)
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+
 	body
+		<ul class="body_slides">
+		<li></li>
+		<li></li>
+		<li></li>
+		</ul>
 		block content

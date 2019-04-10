@@ -1,5 +1,7 @@
+import './js/common.js'
 import './fonts/fonts.scss'
 import './scss/_custom.scss'
+import './scss/_slickfix.scss'
 import './blocks/template/template.scss'
 import './blocks/first_screen/first_screen.scss'
 import './blocks/first_screen/__menu/__menu.scss'
@@ -26,3 +28,6 @@ import './blocks/reviews/__block-review/rewievs__block-review.scss'
 import './blocks/hotel/__slider/hotel__slider.js'
 import './blocks/recall/__text/recall__text.scss'
 import './blocks/recall/__form-sms/recall__form-sms.scss'
+import 'slick-carousel';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';

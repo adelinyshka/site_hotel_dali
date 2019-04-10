@@ -1,7 +1,24 @@
-.slider-close {
-  background-color: aqua;
-  background-image: url('hotel__img/2.jpg');
-  width: 550px;
+
+.img1 {
+  background-image: url('../../../img/sliders/Marata/1.jpg');
+  width: 300px;
   height: 500px;
   background-size: cover;
 }
+
+.img2 {
+  background-image: url('../../../img/sliders/Marata/2.jpg');
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url('../../../img/sliders/Marata/3.jpg');
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+}
+//img(src='' width='200px' height='200px').slide
+//img(src='../../../img/sliders/Marata/2.jpg' width='200px' height='200px').slide
+//img(src='../../../img/sliders/Marata/3.jpg' width='200px' height='200px').slide
