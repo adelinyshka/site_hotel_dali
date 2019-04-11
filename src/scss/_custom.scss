@@ -4,7 +4,9 @@
 
 
 $btn-color: #A73D61;
-$btn-hover: #1F6173;
+$btn-hover: #7D3D61;
+$btn-active: #CD3D61;
+
 .bg-light {
   background-color: transparent !important;
 }
@@ -28,7 +30,8 @@ $nevsk_bg: #BDB9A5;//81%
   font-size: 20px;
   font-weight: bold;
   border: white solid 2px;
-  width: 290px;
+  max-width: 100%;
+  min-width: 250px;
   padding: 7px;
   height: 50px;
   margin-top: 20px;
@@ -42,6 +45,11 @@ box-shadow: 20px 4px 20px rgba(0, 0, 0, 0.25);
 .btn-warning:hover {
   color: white;
   background-color: $btn-hover;
+  border-color: white;
+}
+
+.btn-warning:active {
+  background-color: $btn-active;
   border-color: white;
 }
 

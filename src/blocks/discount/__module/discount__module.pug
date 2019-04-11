@@ -2,9 +2,9 @@ include ../../../blocks/button/button.pug
 mixin disc_mod()
 	.disc_mod
 		.container-fluid
-			.row
-				.offset-8.col-4.__module.p-3.mt-4.mb-4.text-center.shadow
-					.discount__header--style.p-2.font_legend АКЦИЯ
+			.row.justify-content-center
+				.offset-xl-8.offset-lg-7.offset-md-6.dicsount__module--bg-font.p-3.mt-4.mb-4.text-center.shadow.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10
+					.discount__header--style.p-2.dicsount__module--title АКЦИЯ
 					p.discount__text--style Забронируйте на сайте со скидкой 10%
 					+button('ОТПРАВИТЬ')
 					small.form-text.text-muted.pb-3.small-text-color.pl-1 В цену на сайте уже включена скидка

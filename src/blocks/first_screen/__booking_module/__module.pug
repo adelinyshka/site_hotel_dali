@@ -1,25 +1,25 @@
 include ../../../blocks/button/button.pug
 mixin module()
 	.container.mt-5
-		.row
-			.col-lg-5.col-xl-4.col-md-6.col-xs-10.__module.shadow.text-center.p-3
+		.row.justify-content-center.justify-content-md-start
+			.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.text-center.first-screen__booking-module--background-white.shadow.p-4
 				form
-					legend.text-center.font_legend.d-inline.pb-3.pt-3 Найдите подходящий вариант со скидкой
 					.row.justify-content-center
-						.col-10.mb-3
-							label.help.text-left(for='choose') Выберите отель или квартиру
+						.col-12.mb-3
+							legend.text-center.first-screen__booking-module--title-style.d-inline.pb-3.pt-3 Найдите подходящий вариант со скидкой
+							label.first-screen__booking-module--subtitle-style.text-left(for='choose') Выберите отель или квартиру
 							input#choose.form-control(type='text' required)
-					.row.text-center.justify-content-center
-						.col-5
+					.row.justify-content-between
+						.col-6
 							label.help(for='arrival') Дата заезда
-						.col-5
+						.col-6
 							label.help(for='departure') Дата выезда
-					.row.text-center.justify-content-center
-						.col-5
-							input#arrival.p-1(type='date' required)
-						.col-5
-							input#departure.p-1(type='date' required)
+					.row.justify-content-between.mb-3.mb-sm-0
+						.col-5.col-sm-6
+							input#arrival(type='date' required)
+						.col-5.col-sm-6
+							input#departure(type='date' required)
 					.row.justify-content-center
-						.col-10
+						.col-12
 							+button('ЗАБРОНИРОВАТЬ')
 							small.form-text.text-muted.pb-3.small-text-color В цену на сайте уже включена скидка

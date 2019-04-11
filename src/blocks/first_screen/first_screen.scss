@@ -1,12 +1,14 @@
 .hello {
-position: relative;
-z-index: 20;
+  position: relative;
+  //z-index: 20;
   background-image: url('../../img/sliders/1st_screen/1.jpg');
   height: 720px;
   max-width: 100%;
   background-size: cover;
   background-position: center center;
 }
+
+
 
 // активация слайд-шоу
 //.body_slides{

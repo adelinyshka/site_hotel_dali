@@ -8,3 +8,9 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .footer--bgcolor {
+    height: auto;
+  }
+}

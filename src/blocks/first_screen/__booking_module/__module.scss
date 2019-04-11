@@ -1,19 +1,39 @@
-.__module {
-  background-color: rgba(255, 255, 255, 0.4);
+.first-screen__booking-module--background-white {
+  background-color: rgba(255, 255, 255, 0.5);
   color: black;
 }
-.font_legend {
-  font-size: 26px;
+.first-screen__booking-module--title-style {
+  font-size: 1.3rem;
   font-family: Exo;
   font-weight: bold;
 }
 
-form input[type="date"]{
-  width: 130px;
+@media (min-width: 576px) and (max-width: 767px) {
+  .first-screen__booking-module--title-style {
+    font-size: 1.3rem;
+    font-family: 'Exo';
+    line-height: 27px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .first-screen__booking-module--title-style {
+    font-size: 1.2rem;
+    font-family: Exo;
+    font-weight: normal;
+    line-height: 27px;
+  }
+}
+
+form input[type="date"]
+{
+  max-width: 100%;
   height: 40px;
   display: inline-block;
   border: 1px solid #ced4da;
   border-radius: .25rem;
+  //padding: 0 15px;
 }
 
 .text_for_price {
@@ -23,10 +43,6 @@ form input[type="date"]{
 
 .shadow {
   box-shadow: 20px 4px 20px rgba(0, 0, 0, 0.25);
-}
-
-.help {
-  margin-bottom: 0;
 }
 
 .small-text-color {
