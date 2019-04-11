@@ -31,3 +31,5 @@ import './blocks/recall/__form-sms/recall__form-sms.scss'
 import 'slick-carousel';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import 'bootstrap';
+import './blocks/reviews/__slider/review__slider.js'

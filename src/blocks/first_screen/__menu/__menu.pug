@@ -1,6 +1,6 @@
 mixin menu()
 	header.container-fluid
-		nav.navbar.navbar-expand-lg.navbar-light.bg-light.menu_font
+		nav(role="navigation").navbar.navbar-expand-lg.navbar-light.bg-light.menu_font
 			.navbar-brand.d-inline-block.align-middle.text-left
 				<svg width="78" height="54" viewBox="0 0 78 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g clip-path="url(#clip0)">
@@ -14,36 +14,16 @@ mixin menu()
 				</clipPath>
 				</defs>
 				</svg>
-			button(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation').navbar-toggler
-				span.navbar-toggler-icon#navbarSupportedContent
-			.collapse.navbar-collapse
-				ul.navbar-nav.mx-auto
+			.d-inline-block.d-lg-none.align-middle.text-center 8 800 8000000
+
+			button(type='button' data-toggle='collapse' data-target="#navbarNav" aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation').navbar-toggler.align-middle
+				span.navbar-toggler-icon
+			.collapse.navbar-collapse#navbarNav
+				ul.navbar-nav.mx-lg-auto.mx-right
 					li.nav-item.p-3
 						a(class='nav-link' href='#') АПАРТАМЕНТЫ
 					li.nav-item.p-3
 						a(class='nav-link' href='#') АКЦИИ
 					li.nav-item.p-3
 						a(class='nav-link' href='#') ОТЗЫВЫ
-			.d-inline-block.align-middle.text-right 8 800 8000000
-//
-//<nav class="navbar navbar-expand-lg navbar-light bg-light">
-//<a class="navbar-brand" href="#">Navbar</a>
-//<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-//<span class="navbar-toggler-icon"></span>
-//</button>
-//<div class="collapse navbar-collapse" id="navbarNav">
-//<ul class="navbar-nav">
-//<li class="nav-item active">
-//<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-//</li>
-//<li class="nav-item">
-//<a class="nav-link" href="#">Features</a>
-//</li>
-//<li class="nav-item">
-//<a class="nav-link" href="#">Pricing</a>
-//</li>
-//<li class="nav-item">
-//<a class="nav-link disabled" href="#">Disabled</a>
-//</li>
-//</ul>
-//</div>
+			.d-lg-inline-block.d-none.text-right 8 800 8000000
