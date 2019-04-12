@@ -1,23 +1,23 @@
 include ../../../blocks/button/button.pug
 mixin module()
-	.container.mt-5
+	.container-fluid.mt-5.mt-md-5.ml-md-5.mr-md-5
 		.row.justify-content-center.justify-content-md-start
-			.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.text-center.first-screen__booking-module--background-white.shadow.p-4
+			.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.first-screen__booking-module--background-white.shadow.pl-sm-5.pr-sm-5.pt-sm-4.pb-sm-4.mb-1.pl-4.pr-4.pt-2.pb-2
 				form
 					.row.justify-content-center
 						.col-12.mb-3
-							legend.text-center.first-screen__booking-module--title-style.d-inline.pb-3.pt-3 Найдите подходящий вариант со скидкой
+							legend.first-screen__booking-module--title-style.d-inline.pb-3.pt-3 Найдите подходящий вариант со скидкой
 							label.first-screen__booking-module--subtitle-style.text-left(for='choose') Выберите отель или квартиру
 							input#choose.form-control(type='text' required)
 					.row.justify-content-between
 						.col-6
-							label.help(for='arrival') Дата заезда
+							label.first-screen__booking-module--subtitle-style(for='arrival') Дата заезда
 						.col-6
-							label.help(for='departure') Дата выезда
+							label.first-screen__booking-module--subtitle-style(for='departure') Дата выезда
 					.row.justify-content-between.mb-3.mb-sm-0
-						.col-5.col-sm-6
+						.col-6.col-sm-6
 							input#arrival(type='date' required)
-						.col-5.col-sm-6
+						.col-6.col-sm-6
 							input#departure(type='date' required)
 					.row.justify-content-center
 						.col-12

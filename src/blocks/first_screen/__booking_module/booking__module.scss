@@ -2,26 +2,46 @@
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
 }
+
+.first-screen__booking-module--subtitle-style {
+  text-align: left;
+  font-size: 1em;
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 340px) {
+  .first-screen__booking-module--subtitle-style {
+    text-align: left;
+    font-size: 0.9em;
+    margin: 0;
+  }
+
+  .small-text-color {
+    font-size: 0.7em;
+  }
+
+}
 .first-screen__booking-module--title-style {
   font-size: 1.3rem;
   font-family: Exo;
   font-weight: bold;
 }
 
+
 @media (min-width: 576px) and (max-width: 767px) {
   .first-screen__booking-module--title-style {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Exo';
     line-height: 27px;
-    font-weight: normal;
+    font-weight: bold;
   }
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
   .first-screen__booking-module--title-style {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Exo;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 27px;
   }
 }

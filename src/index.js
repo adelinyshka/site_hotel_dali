@@ -6,7 +6,7 @@ import './blocks/template/template.scss'
 import './blocks/first_screen/first_screen.scss'
 import './blocks/first_screen/__menu/__menu.scss'
 import './blocks/first_screen/__title/__title.scss'
-import './blocks/first_screen/__booking_module/__module.scss'
+import './blocks/first_screen/__booking_module/booking__module.scss'
 import './blocks/hotel/hotel.scss'
 import './blocks/hotel/__title/hotel__title.scss'
 import './blocks/hotel/__text/hotel__text.scss'
@@ -33,3 +33,4 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'bootstrap';
 import './blocks/reviews/__slider/review__slider.js'
+import './blocks/hotel/__more/hotel__more.scss'

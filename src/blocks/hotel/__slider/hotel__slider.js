@@ -6,6 +6,6 @@ import 'slick-carousel/slick/slick.scss';
 $('.autoplay_hotel').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
 });

@@ -1,24 +1,67 @@
+.autoplay_hotel * {
 
+}
 .img1 {
   background-image: url('../../../img/sliders/Marata/1.jpg');
-  width: 300px;
+  max-width: 1000px;
+  min-width: 320px;
   height: 500px;
   background-size: cover;
+  background-position: center center;
 }
 
 .img2 {
   background-image: url('../../../img/sliders/Marata/2.jpg');
-  width: 300px;
+  max-width: 1000px;
+  min-width: 320px;
   height: 500px;
   background-size: cover;
+  background-position: center center;
 }
 
 .img3 {
   background-image: url('../../../img/sliders/Marata/3.jpg');
-  width: 300px;
+  max-width: 1000px;
+  min-width: 320px;
   height: 500px;
   background-size: cover;
+  background-position: center center;
 }
-//img(src='' width='200px' height='200px').slide
-//img(src='../../../img/sliders/Marata/2.jpg' width='200px' height='200px').slide
-//img(src='../../../img/sliders/Marata/3.jpg' width='200px' height='200px').slide
+
+@media (min-width: 900px) and (max-width: 992px) {
+  .autoplay_hotel * {
+    height: 45vw;
+
+  }
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  .autoplay_hotel * {
+    height: 50vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+  .autoplay_hotel * {
+    height: 60vw;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  .autoplay_hotel * {
+    height: 70vw;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 399px) {
+  .autoplay_hotel * {
+    height: 80vw;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 992px){
+  .autoplay_hotel * {
+    height: 90vh;
+  }
+}
