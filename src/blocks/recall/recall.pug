@@ -1,5 +1,13 @@
 include ../recall/__text/recall__text.pug
-.recall
+.d-none.d-md-block
+	.recall
+		.container-fluid
+				.row.p-3
+					+recall__text('Не смогли определиться?', 'Закажите обратный звонок', 'Оставляя свой номер, вы даете согласие с политикой обработки данных')
+
+.d-md-none
+	.recall
 	.container-fluid
-		.row
+		.row.text-center.justify-content-center
 			+recall__text('Не смогли определиться?', 'Закажите обратный звонок', 'Оставляя свой номер, вы даете согласие с политикой обработки данных')
+

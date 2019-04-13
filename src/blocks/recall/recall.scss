@@ -1,7 +1,26 @@
+@media (min-width: 766px) and (max-width: 1379px) {}
 .recall {
-  background: linear-gradient(265.5deg, #FFFFFF 13.18%, rgba(255, 255, 255, 0) 27.15%), url('../../img/woman_smile.jpg');
-  height: 365px;
+  background:  url('./recall__img/1280.jpg');
+  height: auto;
   max-width: 100%;
   background-size: cover;
   background-position: center center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .recall {
+    background:  url('recall__img/767.jpg');
+    height: 240px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media (min-width: 1360px) and (max-width: 1920px) {
+  .recall {
+    background:  url('./recall__img/1920.jpg');
+    background-position: 85% center;
+    height: 400px;
+  }
 }

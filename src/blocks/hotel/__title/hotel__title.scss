@@ -10,3 +10,14 @@
 .hotel__title--link_map{
   text-decoration: underline;
 }
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .hotel__title--h1 {
+    font-size: 1.3rem;
+    font-family: Exo;
+    font-weight: 700;
+  }
+  .hotel__title--link_map {
+    font-size: 0.9rem;
+  }
+}

@@ -1,12 +1,12 @@
 include ../../../blocks/button/button.pug
 mixin module()
-	.container-fluid.mt-5.mt-md-5.pl-md-5.pr-md-5
+	.container-fluid.mt-sm-5.mt-2.mt-md-5.pl-md-5.pr-md-5
 		.row.justify-content-center.justify-content-md-start
-			.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.first-screen__booking-module--background-white.shadow.pl-sm-5.pr-sm-5.pt-sm-4.pb-sm-4.mb-1.pl-4.pr-4.pt-2.pb-2
+			.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.first-screen__booking-module--background-white.shadow.pl-sm-5.pr-sm-5.pt-sm-4.pb-sm-4.mb-1.pl-4.pr-4.pt-1.pb-1
 				form
 					.row.justify-content-center
-						.col-12.mb-3
-							legend.first-screen__booking-module--title-style.d-inline.pb-3.pt-3 Найдите подходящий вариант со скидкой
+						.col-12.mb-sm-3
+							legend.first-screen__booking-module--title-style.d-inline.pb-sm-3.pt-sm-3.pt-2 Найдите подходящий вариант со скидкой
 							label.first-screen__booking-module--subtitle-style.text-left(for='choose') Выберите отель или квартиру
 							input#choose.form-control(type='text' required)
 					.row.justify-content-between
@@ -14,12 +14,12 @@ mixin module()
 							label.first-screen__booking-module--subtitle-style(for='arrival') Дата заезда
 						.col-6
 							label.first-screen__booking-module--subtitle-style(for='departure') Дата выезда
-					.row.justify-content-between.mb-3.mb-sm-0
+					.row.justify-content-between.mb-sm-0
 						.col-6.col-sm-6
 							input#arrival(type='date' required)
 						.col-6.col-sm-6
 							input#departure(type='date' required)
 					.row.justify-content-center
-						.col-12
+						.col-12.p-2
 							+button('ЗАБРОНИРОВАТЬ')
-							small.form-text.text-muted.pb-3.small-text-color В цену на сайте уже включена скидка
+							small.form-text.text-muted.pb-sm-3.pb-1.small-text-color В цену на сайте уже включена скидка

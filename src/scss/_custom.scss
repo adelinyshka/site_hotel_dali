@@ -1,10 +1,13 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "~slick-carousel/slick/slick.scss";
 
-
+.btn-outline-secondary {
+    max-width: 100%;
+    min-width: 220px;
+}
 
 $btn-color: #A73D61;
-$btn-hover: #7D3D61;
+$btn-hover: #D33D61;
 $btn-active: #CD3D61;
 
 .bg-light {
@@ -34,7 +37,6 @@ $nevsk_bg: #BDB9A5;//81%
   min-width: 220px;
   padding: 7px;
   height: 50px;
-  margin-top: 20px;
   border-radius: 0rem;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
