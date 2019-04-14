@@ -1,2 +1,50 @@
+.no_padding {
+  padding: 0 !important;
+}
 
-.hotel__icons-gold-icon{}
+.icon1 {
+  background-image: url('./hotel__icons__img/inside.svg');
+  width: 100px;
+  height: 60px;
+  background-size:contain;
+  background-repeat: no-repeat;
+background-position: center center;
+}
+
+.icon2 {
+  background-image: url('./hotel__icons__img/wi_fi.svg');
+  width: 100px;
+  height: 60px;
+  background-size:contain;
+  background-repeat: no-repeat;
+background-position: center center;
+}
+
+.icon3 {
+  background-image: url('./hotel__icons__img/tv.svg');
+  width: 100px;
+  height: 60px;
+  background-size:contain;
+  background-repeat: no-repeat;
+background-position: center center;
+}
+
+//@media (min-width:320px) and (max-width:)
+
+.icon4 {
+  background-image: url('./hotel__icons__img/dryer.svg');
+  width: 100px;
+  height: 60px;
+  background-size:contain;
+  background-repeat: no-repeat;
+background-position: center center;
+}
+
+.icon5 {
+  background-image: url('./hotel__icons__img/micro.svg');
+  width: 100px;
+  height: 60px;
+  background-size:contain;
+  background-repeat: no-repeat;
+background-position: center center;
+}

@@ -1,13 +1,32 @@
-.hello {
+.first_screen--bg {
   position: relative;
-  //z-index: 20;
-  background-image: url('../../img/sliders/1st_screen/11.jpg');
+  background-image: url('first_screen__img/1st_screen_480.jpg');
   height: auto;
   max-width: 100%;
   background-size: cover;
   background-position: center center;
 }
 
+@media (min-width: 1281px) and (max-width: 1920px) {
+  .first_screen--bg {
+    background-image: url('first_screen__img/1st_screen_1920.jpg');
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+    .first_screen--bg {
+    background-image: url('first_screen__img/1st_screen_1280.jpg');
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .first_screen--bg {
+    background-image: url('first_screen__img/1st_screen_767.jpg');
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .first_screen--bg {
+    background-image: url('first_screen__img/1st_screen_480.jpg');
+  }
+}
 
 
 // активация слайд-шоу

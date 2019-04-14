@@ -2,19 +2,34 @@
   display: inline-block;
 }
 
-.vk{
-  background-image: url('../../img/icons/social_net/vk.svg');
+.vk:hover {
+  background-image: url('footer__icons/hover_vk.svg');
   width: 45px;
   height: 43px;
-  //display: inline;
 }
-.fb{  background-image: url('../../img/icons/social_net/facebook.svg');
+
+.fb:hover {
+  background-image: url('footer__icons/hover_facebook.svg');
+  width: 45px;
+  height: 43px;
+}
+
+.inst:hover {
+  background-image: url('footer__icons/hover_instagram.svg');
+  width: 45px;
+  height: 43px;
+}
+
+.vk{
+  background-image: url('footer__icons/vk.svg');
+  width: 45px;
+  height: 43px;
+}
+.fb{  background-image: url('footer__icons/facebook.svg');
     width: 45px;
   height: 43px;
-    //display: inline;
 }
-.inst{  background-image: url('../../img/icons/social_net/instagram.svg');
+.inst{  background-image: url('footer__icons/instagram.svg');
     width: 45px;
   height: 43px;
-    //display: inline;
 }

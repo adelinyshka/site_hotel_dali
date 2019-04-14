@@ -1,10 +1,21 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "~slick-carousel/slick/slick.scss";
 
+.btn-outline-light{
+
+}
+
 .btn-outline-secondary {
     max-width: 100%;
     min-width: 220px;
 }
+
+.card-footer {
+padding: 0 0.5rem;
+}
+
+.card-body {
+padding: 0.5rem;}
 
 $btn-color: #A73D61;
 $btn-hover: #D33D61;
