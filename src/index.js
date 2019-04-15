@@ -1,4 +1,5 @@
 import './js/common.js'
+import './blocks/first_screen/first_screen.js'
 import './fonts/fonts.scss'
 import './scss/_custom.scss'
 import './scss/_slickfix.scss'

@@ -1,0 +1,33 @@
+var WuBook= new _WuBook(1507728635);
+var wbparams= {
+    textcolorpk: '#988454',
+    fixedPosition: 0,
+    ditextcolor: '#ffffff',
+    textcolorbb: '#ffffff',
+    plusperc: '',
+    listtypebb: '#ffffff',
+    buttoncoloras: '#1c375b',
+    iconcoloras: '#ffffff',
+    rpkgs: '',
+    avgcolor: '#988454',
+    labelcoloras: '#ffffff',
+    barbackground: 'rgba(0, 0, 0, 0)',
+    default_nights: 2,
+    textcolorcalendarbe: '#988454',
+    bordercolor: '#c3c1bb',
+    blocks: 'be',
+    failback_lang: 'ru',
+    hdcode: '',
+    textcolorbuttonbe: '#ffffff',
+    avgtextcolor: '#ffffff',
+    diinputcolor: '#ffffff',
+    lang: 'ru',
+    buttoncolorbe: '#ae235a',
+    dibuttoncolor: '#008000',
+    wbgoogle: 1,
+    bgblocks: '#d2d2d2',
+    cmsgs: '',
+    textcolornightspk: '#ffffff',
+    adchi: 0
+};
+WuBook.design_bwidget("_baror_", wbparams);

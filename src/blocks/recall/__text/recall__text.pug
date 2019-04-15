@@ -1,10 +1,12 @@
 include ../../../blocks/button/button.pug
 mixin recall__text(title, subtitle, smallText)
 	.offset-md-6.col-6.text-center.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.pt-3.pt-sm-3
-		.m-sm-3.m-1.text-center
+		.m-sm-3.m-1.text-center.p-3
+			a#recall_us
 			.recall__title= title
 			.recall__subtitle.m-3= subtitle
 			.recall__action.m-3
-				.recall__form-sms action
+				.recall__form-sms
+					input( type="text" name="tel" value="Введите ваш телефон" size="20" maxlength="25" width="140px" height="40px")
 			+button('ЗАБРОНИРОВАТЬ')
-			.recall__small-text.pt-3= smallText
+			.recall__small-text.p-3= smallText

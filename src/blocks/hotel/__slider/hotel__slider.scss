@@ -1,67 +1,336 @@
-.autoplay_hotel * {
-
-}
-.img1 {
-  background-image: url('../../../img/sliders/Marata/1.jpg');
-  max-width: 1000px;
-  min-width: 320px;
-  height: 500px;
-  background-size: cover;
-  background-position: center center;
+.hotel__slider__booking-rating {
+  background-image: url('./hotel__slider__img/booking_rating.svg');
+  width:149px;
+  height:67px;
+  position: absolute;
+  top: 20px;
+  right:1vw;
+  z-index:2;
 }
 
-.img2 {
-  background-image: url('../../../img/sliders/Marata/2.jpg');
-  max-width: 1000px;
-  min-width: 320px;
-  height: 500px;
-  background-size: cover;
-  background-position: center center;
-}
-
-.img3 {
-  background-image: url('../../../img/sliders/Marata/3.jpg');
-  max-width: 1000px;
-  min-width: 320px;
-  height: 500px;
-  background-size: cover;
-  background-position: center center;
-}
-
-@media (min-width: 900px) and (max-width: 992px) {
-  .autoplay_hotel * {
-    height: 45vw;
-
+@media (min-width: 320px) and (max-width: 399px) {
+  .hotel__slider__booking-rating {
+    right:3.3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
   }
 }
 
+@media (min-width: 400px) and (max-width: 500px) {
+  .hotel__slider__booking-rating {
+    right:3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+  .hotel__slider__booking-rating {
+    right:2.7vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 750px) {
+  .hotel__slider__booking-rating {
+    right:2.1vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+}
+
+.op:nth-child(n) {
+  max-width: 950px;
+  min-width: 320px;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+}
+.img1 {
+  background-image: url('./hotel__slider__img/Marata/11.jpg');
+}
+
+.img2 {
+  background-image: url('./hotel__slider__img/Marata/12.jpg');
+}
+
+.img3 {
+  background-image: url('./hotel__slider__img/Marata/13.jpg');
+}
+
+.img4 {
+  background-image: url('./hotel__slider__img/Marata/14.jpg');
+}
+
+.img5 {
+  background-image: url('./hotel__slider__img/Marata/15.jpg');
+}
+.img6 {
+  background-image: url('./hotel__slider__img/Marata/16.jpg');
+}
+.img7 {
+  background-image: url('./hotel__slider__img/Marata/17.jpg');
+}
+.img8 {
+  background-image: url('./hotel__slider__img/Marata/18.jpg');
+}
+.img9 {
+  background-image: url('./hotel__slider__img/Marata/19.jpg');
+}
+.img10 {
+  background-image: url('./hotel__slider__img/Marata/20.jpg');
+}
+.img11 {
+  background-image: url('./hotel__slider__img/Marata/21.jpg');
+}
+.img12 {
+  background-image: url('./hotel__slider__img/Marata/22.jpg');
+}
+
+.img13 {
+  background-image: url('./hotel__slider__img/Marata/23.jpg');
+}
+
+
+.img14 {
+  background-image: url('./hotel__slider__img/Marata/24.jpg');
+}
+
+.img15 {
+  background-image: url('./hotel__slider__img/Marata/25.jpg');
+}
+
+.img16 {
+  background-image: url('./hotel__slider__img/Marata/26.jpg');
+}
+
+.img17 {
+  background-image: url('./hotel__slider__img/Marata/27.jpg');
+}
+
+.img18 {
+  background-image: url('./hotel__slider__img/Marata/28.jpg');
+}
+
+.img19 {
+  background-image: url('./hotel__slider__img/Marata/29.jpg');
+}
+
+.img20 {
+  background-image: url('./hotel__slider__img/Marata/30.jpg');
+}
+
+.img21 {
+  background-image: url('./hotel__slider__img/Marata/31.jpg');
+}
+
+.img22 {
+  background-image: url('./hotel__slider__img/Marata/32.jpg');
+}
+
+//.img {
+//  background-image: url('');
+//  max-width: 950px;
+//  min-width: 320px;
+//  height: 500px;
+//  background-size: cover;
+//  background-position: center center;
+//}
+
+@media (min-width: 900px) and (max-width: 992px) {
+  .op:nth-child(n) {
+    max-width: 950px;
+    min-width: 320px;
+    height: 45vw;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+}
+
 @media (min-width: 700px) and (max-width: 899px) {
-  .autoplay_hotel * {
+  //.autoplay_hotel * {
+  //  height: 50vw;
+  //  background-position: center center;
+  //}
+
+  .op:nth-child(n) {
+    max-width: 950px;
+    min-width: 320px;
     height: 50vw;
+    background-size: cover;
+    background-position: center center;
   }
 }
 
 @media (min-width: 600px) and (max-width: 699px) {
-  .autoplay_hotel * {
+  //.autoplay_hotel * {
+  //  height: 60vw;
+  //  background-position: center center;
+  //}
+
+  .op:nth-child(n) {
+    max-width: 950px;
+    min-width: 320px;
     height: 60vw;
+    background-size: cover;
+    background-position: center center;
   }
 }
 
 @media (min-width: 400px) and (max-width: 599px) {
-  .autoplay_hotel * {
+  //.autoplay_hotel * {
+  //  height: 70vw;
+  //  background-position: center center;
+  //}
+
+  .op:nth-child(n) {
+    max-width: 950px;
+    min-width: 320px;
     height: 70vw;
+    background-size: cover;
+    background-position: center center;
   }
 }
 
 
 @media (min-width: 320px) and (max-width: 399px) {
-  .autoplay_hotel * {
+  //.autoplay_hotel * {
+  //  height: 80vw;
+  //  background-position: center center;
+  //}
+
+  .op:nth-child(n) {
+    max-width: 950px;
+    min-width: 320px;
     height: 80vw;
+    background-size: cover;
+    background-position: center center;
   }
 }
 
 @media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 992px){
-  .autoplay_hotel * {
+  //.autoplay_hotel * {
+  //  height: 90vh;
+  //}
+  .op:nth-child(n) {
+    max-width: 950px;
+    min-width: 320px;
     height: 90vh;
+    background-size: cover;
+    background-position: center center;
   }
+}
+
+.img301 {
+  background-image: url('./hotel__slider__img/Kuznech/101.jpg')
+}
+.img302 {
+  background-image: url('./hotel__slider__img/Kuznech/102.jpg')
+}
+.img303 {
+  background-image: url('./hotel__slider__img/Kuznech/103.jpg')
+}
+.img304 {
+  background-image: url('./hotel__slider__img/Kuznech/104.jpg')
+}
+.img305 {
+  background-image: url('./hotel__slider__img/Kuznech/105.jpg')
+}
+.img306 {
+  background-image: url('./hotel__slider__img/Kuznech/106.jpg')
+}
+.img307 {
+  background-image: url('./hotel__slider__img/Kuznech/107.jpg')
+}
+.img308 {
+  background-image: url('./hotel__slider__img/Kuznech/108.jpg')
+}
+.img309 {
+  background-image: url('./hotel__slider__img/Kuznech/109.jpg')
+}
+.img310 {
+  background-image: url('./hotel__slider__img/Kuznech/110.jpg')
+}
+
+.img401 {
+  background-image: url('./hotel__slider__img/Nevsky/201.jpg');
+}
+.img402 {
+  background-image: url('./hotel__slider__img/Nevsky/202.jpg');
+}
+.img403 {
+  background-image: url('./hotel__slider__img/Nevsky/203.jpg');
+}
+.img404 {
+  background-image: url('./hotel__slider__img/Nevsky/204.jpg');
+}
+.img406 {
+  background-image: url('./hotel__slider__img/Nevsky/206.jpg');
+}
+.img407 {
+  background-image: url('./hotel__slider__img/Nevsky/207.jpg');
+}
+.img408 {
+  background-image: url('./hotel__slider__img/Nevsky/208.jpg');
+}
+.img409 {
+  background-image: url('./hotel__slider__img/Nevsky/209.jpg');
+}
+
+.img501 {
+  background-image: url('./hotel__slider__img/Telegh/301.jpg')
+}
+.img502 {
+  background-image: url('./hotel__slider__img/Telegh/302.jpg')
+}
+.img503 {
+  background-image: url('./hotel__slider__img/Telegh/303.jpg')
+}
+.img504 {
+  background-image: url('./hotel__slider__img/Telegh/304.jpg')
+}
+.img505 {
+  background-image: url('./hotel__slider__img/Telegh/305.jpg')
+}
+.img506 {
+  background-image: url('./hotel__slider__img/Telegh/306.jpg')
+}
+.img507 {
+  background-image: url('./hotel__slider__img/Telegh/307.jpg')
+}
+.img508 {
+  background-image: url('./hotel__slider__img/Telegh/308.jpg')
+}
+.img509 {
+  background-image: url('./hotel__slider__img/Telegh/309.jpg')
+}
+
+.img510 {
+  background-image: url('./hotel__slider__img/Telegh/310.jpg');
+}
+.img511 {
+  background-image: url('./hotel__slider__img/Telegh/311.jpg');
+}
+.img512 {
+  background-image: url('./hotel__slider__img/Telegh/312.jpg');
+}
+.img513 {
+  background-image: url('./hotel__slider__img/Telegh/313.jpg');
+}
+
+.img515 {
+  background-image: url('./hotel__slider__img/Telegh/315.jpg');
+}
+.img516 {
+  background-image: url('./hotel__slider__img/Telegh/316.jpg');
+}
+.img517 {
+  background-image: url('./hotel__slider__img/Telegh/317.jpg');
 }

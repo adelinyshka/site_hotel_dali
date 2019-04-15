@@ -1,3 +1,5 @@
+include ../../../blocks/button/recall_button.pug
+
 mixin menu()
 	header
 		nav(role="navigation").navbar.navbar-expand-lg.navbar-light.bg-light.menu_font
@@ -15,6 +17,8 @@ mixin menu()
 				</defs>
 				</svg>
 			.d-inline-block.d-lg-none.align-middle.text-center 8 800 8000000
+			.first-screen__menu__recall-button-style-center.d-lg-none
+				+recall_button('Перезвоните мне')
 
 			button(type='button' data-toggle='collapse' data-target="#navbarNav" aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation').navbar-toggler.align-middle
 				span.navbar-toggler-icon
@@ -26,4 +30,11 @@ mixin menu()
 						a(class='nav-link' href='#') АКЦИИ
 					li.nav-item.p-3
 						a(class='nav-link' href='#') ОТЗЫВЫ
+			.first-screen__menu__recall-button-style.d-lg-block.d-none
+				+recall_button('Перезвоните мне')
 			.d-lg-inline-block.d-none.text-right 8 800 8000000
+
+
+						//.row.justify-content-end
+						//	.col-2
+						//		+recall_button('Перезвоните мне')

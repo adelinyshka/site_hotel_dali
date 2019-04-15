@@ -9,24 +9,24 @@
 
 @mixin kuzn_font {
   padding: 2vw;
-  height: 720px;
+  height: auto;
   background-color: #e4eaed;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.13, rgb(255, 255, 255)),color-stop(0.175, rgb(228, 234, 237)),color-stop(0.501, rgb(228, 234, 237)),color-stop(0.575, rgb(255, 255, 255)),color-stop(1, rgb(255, 255, 255)));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.29, rgb(228, 234, 237)),color-stop(0.68, rgb(228, 234, 237)),color-stop(1, rgb(255, 255, 255)));
 }
+
 
 
 @mixin nevsk_font {
   padding: 2vw;
-  height: 720px;
+  height: auto;
   background-color: #e8e6df;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.13, rgb(255, 255, 255)),color-stop(0.175, rgb(232, 230, 223)),color-stop(0.501, rgb(232, 230, 223)),color-stop(0.575, rgb(255, 255, 255)),color-stop(1, rgb(255, 255, 255)));
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.29, rgb(232, 230, 223)),color-stop(0.68, rgb(232, 230, 223)),color-stop(1, rgb(255, 255, 255)));
 }
-
 
 @mixin teleg_font {
   padding: 2vw;
-  height: 720px;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.13, rgb(255, 255, 255)),color-stop(0.175, rgb(242, 231, 220)),color-stop(0.501, rgb(242, 231, 220)),color-stop(0.575, rgb(255, 255, 255)),color-stop(1, rgb(255, 255, 255)));
+  height: auto;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.29, rgb(242, 231, 220)),color-stop(0.68, rgb(242, 231, 220)),color-stop(1, rgb(255, 255, 255)));
   background-color: #f2e7dc;
 }
 
@@ -45,20 +45,3 @@
 .teleg {
   @include teleg_font
 }
-
-
-
-// 2
-//background-color: #e4eaed;
-//background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.014, rgb(255, 255, 255)),color-stop(0.014, rgb(255, 255, 255)),color-stop(0.173, rgb(255, 255, 255)),color-stop(0.289, rgb(212, 221, 226)),color-stop(0.79, rgb(212, 221, 226)),color-stop(0.878, rgb(255, 255, 255)),color-stop(0.973, rgb(255, 255, 255)),color-stop(0.973, rgb(255, 255, 255)),color-stop(1, rgb(255, 255, 255)));
-
-// 3
-//background-color: #e8e6df;
-// background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.014, rgb(255, 255, 255)),color-stop(0.014, rgb(255, 255, 255)),color-stop(0.173, rgb(255, 255, 255)),color-stop(0.289, rgb(218, 216, 204)),color-stop(0.79, rgb(218, 216, 204)),color-stop(0.878, rgb(255, 255, 255)),color-stop(0.973, rgb(255, 255, 255)),color-stop(0.973, rgb(255, 255, 255)),color-stop(1, rgb(255, 255, 255)));
-
-// 4
-//   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(255, 255, 255)),color-stop(0.014, rgb(255, 255, 255)),color-stop(0.014, rgb(255, 255, 255)),color-stop(0.173, rgb(255, 255, 255)),color-stop(0.289, rgb(235, 218, 200)),color-stop(0.79, rgb(235, 217, 199)),color-stop(0.878, rgb(255, 255, 255)),color-stop(0.973, rgb(255, 255, 255)),color-stop(0.973, rgb(255, 255, 255)),color-stop(1, rgb(255, 255, 255)));
-//background-color: #f2e7dc;
-//
-
-
