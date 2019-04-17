@@ -1,5 +1,5 @@
 .discount {
-  background-image: url('discount_img/discount_bg_480.jpg');
+  background-image: url('../../img/discount_img/discount_bg_480.jpg');
   height: auto;
   max-width: 100%;
   background-size: cover;
@@ -8,21 +8,21 @@
 
 @media (min-width: 1281px) and (max-width: 1920px) {
   .discount {
-    background-image: url('discount_img/discount_bg_1920.jpg');
+    background-image: url('../../img/discount_img/discount_bg_1920.jpg');
   }
 }
 @media (min-width: 768px) and (max-width: 1280px) {
   .discount {
-    background-image: url('discount_img/discount_bg_1280.jpg');
+    background-image: url('../../img/discount_img/discount_bg_1280.jpg');
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .discount {
-    background-image: url('discount_img/discount_bg_768.jpg');
+    background-image: url('../../img/discount_img/discount_bg_768.jpg');
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .discount {
-    background-image: url('discount_img/discount_bg_480.jpg');
+    background-image: url('../../img/discount_img/discount_bg_480.jpg');
   }
 }

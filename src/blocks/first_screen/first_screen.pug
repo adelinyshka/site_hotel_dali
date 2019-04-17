@@ -5,9 +5,16 @@ include __booking_module/booking__module.pug
 	+menu()
 	.p-1
 	+title()
-	.p-2
-	+module()
-	//#_baror_
-	//	a(href='https://ru.wubook.net/', style='display: block; margin-top: 5px; text-decoration:none;border:none;', target='_blank')
-	//		img(src='https://wubook.net/imgs/default/booking_by_wu.gif', alt='http://www.ru.wubook.net/', title='Инструменты для отелей', style='border:none;text-decoration:none;')
-	.p-3
+	.m-5
+	.m-3
+		.container-fluid.mb-5
+			.row.justify-content-center.justify-content-md-start.p-1
+				.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.first-screen__booking-module--background-white
+					.first-screen__booking-module--title-style.text-center Выберите подходящий вариант
+					<div id="_wbord_" class="shadow">
+					<a href="https://ru.wubook.net/" style="display: block; margin-top: 5px; text-decoration:none;border:none" target="_blank">
+					</a>
+					</div>
+					.p-2
+
+	//+module()
