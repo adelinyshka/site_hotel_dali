@@ -1,0 +1,43 @@
+.my_button {
+  background-color: #a73d61;
+  border-radius: 3px;
+  border: 0 none;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  min-height: 38px;
+  text-shadow: 0 -1px rgba(0, 0, 0, .29);
+  cursor: pointer;
+  margin-bottom: 21px;
+  line-height: 1;
+  padding: 10px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  max-width: 220px;
+  min-width: 185.33px;
+}
+
+.my_button_discount {
+  background-color: #a73d61;
+  border-radius: 3px;
+  border: 0 none;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  min-height: 37px;
+  text-shadow: 0 -1px rgba(0, 0, 0, .29);
+  cursor: pointer;
+
+  line-height: 1;
+  padding: 10px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  max-width: 365.33px;
+  min-width: 220px;
+}

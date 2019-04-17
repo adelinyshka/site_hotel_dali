@@ -7,6 +7,23 @@
   background-position: center center;
 }
 
+.padding_new {
+  padding: calc(15px + 2vw);
+}
+.first_screen__h2-style {
+  font-size: 1.3rem;
+  padding: 2vw;
+  padding-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.first-screen__booking-module--background-white {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+
+}
+
 @media (min-width: 1281px) and (max-width: 1920px) {
   .first_screen--bg {
     background-image: url('../../img/first_screen__img/1st_screen_1920.jpg');

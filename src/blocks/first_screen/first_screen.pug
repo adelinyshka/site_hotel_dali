@@ -6,15 +6,20 @@ include __booking_module/booking__module.pug
 	.p-1
 	+title()
 	.m-5
-	.m-3
-		.container-fluid.mb-5
-			.row.justify-content-center.justify-content-md-start.p-1
-				.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.first-screen__booking-module--background-white
-					.first-screen__booking-module--title-style.text-center Выберите подходящий вариант
-					<div id="_wbord_" class="shadow">
-					<a href="https://ru.wubook.net/" style="display: block; margin-top: 5px; text-decoration:none;border:none" target="_blank">
-					</a>
-					</div>
-					.p-2
+	.container-fluid
+		.row.justify-content-center
+			.offset-xl-8.col-xl-4.padding_new.col-lg-5.offset-lg-7.col-md-6.offset-md-6.col-sm-7.offset-sm-5.col-10
+				.first-screen__booking-module--background-white.shadow
+					h2.first_screen__h2-style Выберите подходящий вариант
+						.p-2
+							<div id="_wbord_">
+							<a href="https://ru.wubook.net/" style="display: block; margin-top: 5px; text-decoration:none;border:none" target="_blank">
+							</a>
+							</div>
 
 	//+module()
+
+		.container-fluid.mb-5
+				.row.justify-content-center.justify-content-md-start.p-1
+					.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.first-screen__booking-module--background-white
+//.first-screen__booking-module--title-style.text-center

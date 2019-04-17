@@ -30,3 +30,4 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'bootstrap';
 import './blocks/reviews/__slider/review__slider.js'
 import './blocks/hotel/__icons/hotel__icons.scss'
+import './blocks/button/button.scss'

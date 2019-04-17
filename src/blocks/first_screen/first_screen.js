@@ -1,11 +1,11 @@
 var WuBook= new _WuBook(1507728635);
 var wbparams= {
-    bordercolor: 'rgba(255, 255, 255, 0.5)',
+    bordercolor: 'rgba(255, 255, 255, 0.01)',
     lang: 'ru',
     buttoncolor: '#a73d61',
     failback_lang: 'ru',
     wbgoogle: 1,
-    bgcolor: 'rgba(255, 255, 255, 0.5)',
+    bgcolor: 'rgba(255, 255, 255, 0.01)',
     dcodeval: '',
     iconcolor: '#888888',
     textcolor: '#2c2c2c',

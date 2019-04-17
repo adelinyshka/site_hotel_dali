@@ -10,6 +10,7 @@ $('.responsive').slick({
     speed: 300,
     slidesToShow: 5,
     slidesToScroll: 5,
+    arrows: false,
     responsive: [
         {
             breakpoint: 1601,

@@ -1,12 +1,14 @@
 include ../../../blocks/button/button.pug
 mixin disc_mod()
-	.disc_mod.ml-md-5.mr-md-5
+	.disc_mod
 		.container-fluid
 			.row.justify-content-center
-				.discount__module--bg-font.text-center.shadow.col-xl-4.col-lg-5.col-md-6.col-sm-8.col-xs-10.col-10.text-center.shadow.pl-sm-5.pr-sm-5.pt-sm-4.pb-sm-4.mb-1.p-4.offset-xl-8.offset-lg-7.offset-md-6
-					.discount__header--style.p-2.discount__module--title АКЦИЯ
-					p.p-2.discount__module--text--style Забронируйте на сайте со скидкой 10%
-					.p-2
-						a(href="https://wubook.net/wbkd/wbk/?lcode=1507728635")
-							+button('ЗАБРОНИРОВАТЬ')
-					small.form-text.text-muted.pb-3.small-text-color.pl-1 В цену на сайте уже включена скидка
+				.offset-xl-8.col-xl-4.padding_new.col-lg-5.offset-lg-7.col-md-6.offset-md-6.col-sm-7.offset-sm-5.col-10.text-center
+					.discount__module--bg-font.shadow
+						h2.discount__header--style.discount__module--title АКЦИЯ
+							.p-2
+								h3.discount__module--text--style.p-2 Забронируйте на сайте со скидкой 10%
+								.p-2
+									a(href="https://wubook.net/wbkd/wbk/?lcode=1507728635")
+										+button_discount('забронировать')
+								small.text-muted.pb-3.small-text-color.pl-1 В цену на сайте уже включена скидка

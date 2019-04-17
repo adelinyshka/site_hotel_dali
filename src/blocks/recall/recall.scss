@@ -23,13 +23,24 @@
   background-position: 85% center;
   }
 }
-@media (min-width: 768px) and (max-width: 1280px) {
+
+@media (min-width: 1181px) and (max-width: 1280px) {
+  .recall {
+    background: url('../../img/recall__img/bus_wom_1280.jpg');
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 70% center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
   .recall {
   background: url('../../img/recall__img/bus_wom_1280.jpg');
     height: auto;
   max-width: 100%;
   background-size: cover;
-    background-position: 75% center;
+    background-position: 60% center;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
