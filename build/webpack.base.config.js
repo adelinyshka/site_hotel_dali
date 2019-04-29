@@ -38,13 +38,15 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(ttf|eot|woff|woff2)$/,
+                test: /\.(ttf|eot|woff|woff2|svg)$/,
                 use: {
                     loader: "file-loader",
                     options: {
-                        name: "fonts/[name].[ext]",
+                        name: "[name].[ext]",
+                        outputPath: PATHS.assets + 'fonts',
                     }
-                }
+                },
+                exclude: PATHS.src+'/img/'
             },
             {
                 test: /\.pug$/,
@@ -60,8 +62,10 @@ module.exports = {
                 test: /\.(png|jpg|gif|svg)$/,
                 loader: 'file-loader',
                 options: {
-                    name: '[name].[ext]'
-                }
+                    name: '[name].[ext]',
+                    outputPath: PATHS.assets + '/img'
+                },
+                exclude: PATHS.src+'/fonts/'
             }, {
                 test:  /\.(sass|scss)$/,
                 use: [
@@ -102,8 +106,8 @@ module.exports = {
             filename: './index.html'
         }),
         new CopyWebpackPlugin([
-            { from: `${PATHS.src}/img`, to: `${PATHS.assets}img` },
-            { from: `${PATHS.src}/static`, to: '' },
+            // { from: PATHS.src + '/img', to: PATHS.assets +`/img` },
+            { from: PATHS.src + '/static' },
         ])
     ],
 };

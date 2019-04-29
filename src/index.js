@@ -24,10 +24,10 @@ import './blocks/reviews/__block-review/__quotes/review__quotes.scss'
 import './blocks/reviews/__block-review/rewievs__block-review.scss'
 import './blocks/hotel/__slider/hotel__slider.js'
 import './blocks/recall/__text/recall__text.scss'
-import 'slick-carousel';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import 'bootstrap';
+import 'slick-carousel'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import 'bootstrap'
 import './blocks/reviews/__slider/review__slider.js'
 import './blocks/hotel/__icons/hotel__icons.scss'
 import './blocks/button/button.scss'
