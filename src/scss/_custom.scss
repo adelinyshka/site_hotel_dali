@@ -13,7 +13,7 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-outline-light:hover {
-background-color: #D33D61;;
+background-color: #D33D61;
 color: white;
 border: 1px solid #CD3D61;
 }
@@ -23,12 +23,15 @@ border: 1px solid #CD3D61;
     min-width: 220px;
 }
 
+
+
 .card-footer {
 padding: 0 0.5rem;
 }
 
 .card-body {
-padding: 0.5rem;}
+padding: 0.5rem;
+}
 
 $btn-color: #A73D61;
 $btn-hover: #D33D61;
@@ -38,18 +41,13 @@ $btn-active: #CD3D61;
   background-color: transparent !important;
 }
 
-$marata_bg: #D29EB0; //66
-$kuzn_bg: #CCD7DD;//100
-$teleg_bg: rgba(228, 205, 181, 1); //67%
-$nevsk_bg: #BDB9A5;//81%
-
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.4);
-  }
+.nav-item:hover, .nav-link:hover, .nav-item:focus, .nav-link:focus {
+color: #D33D61 !important;
+}
 
 
 .shadow {
@@ -78,3 +76,4 @@ background-color: rgba(161, 102, 70, 0.16);
 .text-muted {
 color: grey;
 }
+

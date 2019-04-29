@@ -1,24 +1,48 @@
 .menu_font {
-  font-family: 'Roboto';
-  font-weight: normal;
   color: black;
   padding-left: 4vw;
   padding-right: 4vw;
-  font-size: 1rem;
+  font: bold 1.2rem Roboto;
 }
 
 @media (min-width:576px) and (max-width: 991px) {
   .menu_font {
     padding-left: 1vw;
     padding-right: 1vw;
-    font-size: 0.9rem;
+    font: bold 1.1rem Roboto;
   }
 }
 
-a.hop {
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .menu_font {
+    font: bold 1rem Roboto;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .menu_font {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .menu_font {
+    font-size: 1.5rem;
+  }
+}
+
+
+.hop {
   text-decoration: none;
   color: black;
 }
+
+.hop:hover {
+  color: #D33D61;
+  text-decoration: none;
+}
+
 .first-screen__menu__recall-button-style {
   position: absolute;
   top: 8px;
@@ -76,22 +100,3 @@ a.hop {
 }
 
 
-
-@media (min-width: 320px) and (max-width: 575px) {
-  .menu_font {
-    font-weight: normal;
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1400px) and (max-width: 1599px) {
-  .menu_font {
-    font-size: 1.4rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .menu_font {
-    font-size: 1.5rem;
-  }
-}
