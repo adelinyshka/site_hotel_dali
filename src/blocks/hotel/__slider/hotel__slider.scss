@@ -1,12 +1,23 @@
 .hotel__slider__booking-rating {
-  background-image: url('../../../img/hotel__slider__img/stars.svg');
+  background-image: url('./../../../img/hotel__slider__img/booking_rating.svg');
   width:149px;
-  height:34px;
+  height:67px;
   position: absolute;
   top: 20px;
   right:1vw;
   z-index:2;
 }
+
+
+//{
+//  background-image: url('../../../img/hotel__slider__img/stars.svg');
+//  width:149px;
+//  height:34px;
+//  position: absolute;
+//  top: 20px;
+//  right:1vw;
+//  z-index:2;
+//}
 
 @media (min-width: 320px) and (max-width: 399px) {
   .hotel__slider__booking-rating {
