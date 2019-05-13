@@ -13,7 +13,6 @@
   }
 }
 
-
 @media (min-width: 320px) and (max-width: 575px) {
   .menu_font {
     font: bold 1rem Roboto;
@@ -32,6 +31,9 @@
   }
 }
 
+.reacallus__button--wrapper {
+  text-align: center;
+}
 
 .hop {
   text-decoration: none;
@@ -43,88 +45,30 @@
   text-decoration: none;
 }
 
-//.first-screen__menu__recall-button-style {
-//  position: absolute;
-//  top: 8px;
-//  right: 4.15vw;
-//}
-
 .first-screen__menu__recall-button-style a {
   text-decoration: none;
 }
 
-.reacallus__button--wrapper {
-  position: absolute;
-}
 
-@media (min-width: 893px) and (max-width: 1920px) {
-  .reacallus__button--wrapper {
-    position: absolute;
-    right: 4vw;
-    top: 4vw;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 892px) {
-  .reacallus__button--wrapper {
-    position: absolute;
-    top:60px;
-    left:50%;
-    margin-left: -40px;
-  }
-}
-
-//.first-screen__menu__recall-button-style-center{
-//  position: absolute;
-//  top: 50px;
-//  left: 47vw;
-//}
 //
-//@media (min-width:850px) and (max-width:950px) {
-//  .first-screen__menu__recall-button-style-center{
-//    position: absolute;
-//    top: 50px;
-//    left: 46.55vw;
+//@media (min-width: 893px) and (max-width: 1920px) {
+//  .reacallus__button--wrapper {
+//    right: 4vw;
+//    top: 4vw;
 //  }
 //}
 //
-//@media (min-width:700px) and (max-width:849px) {
-//  .first-screen__menu__recall-button-style-center{
-//    position: absolute;
-//    top: 50px;
-//    left: 45.55vw;
+//@media (min-width: 520px) and (max-width: 892px) {
+//  .reacallus__button--wrapper {
+//    top:60px;
+//    left:calc(50% - 13vw);
 //  }
 //}
 //
-//@media (min-width:569px) and (max-width:699px) {
-//  .first-screen__menu__recall-button-style-center{
-//    position: absolute;
-//    top: 50px;
-//    left: 45%;
-//  }
-//}
-//
-//@media (min-width:362px) and (max-width:568px) {
-//  .first-screen__menu__recall-button-style-center{
-//    position: absolute;
-//    top: 50px;
-//    left: 43.55vw;
-//  }
-//}
-//
-//@media (min-width:320px) and (max-width:362px) {
-//  .first-screen__menu__recall-button-style-center{
-//    position: absolute;
-//    top: 50px;
-//    left: 40.55vw;
-//  }
-//}
-//
-//@media (min-width:850px) and (max-width:950px) {
-//  .first-screen__menu__recall-button-style-center{
-//    position: absolute;
-//    top: 50px;
-//    left: 46.55vw;
+//@media (min-width: 320px) and (max-width: 519px) {
+//  .reacallus__button--wrapper {
+//    top:60px;
+//    left:calc(50% - 13vw);
 //  }
 //}
 

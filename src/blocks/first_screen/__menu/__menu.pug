@@ -6,6 +6,8 @@ mixin menu()
 			.navbar-brand.d-inline-block.align-middle.text-left
 				.logonew
 			.d-inline-block.d-lg-none.align-middle.text-center.hop +7 905 220 90 10
+				.reacallus__button--wrapper
+					+recallus()
 			.first-screen__menu__recall-button-style-center.d-lg-none
 			button(type='button' data-toggle='collapse' data-target="#navbarNav" aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation').navbar-toggler.align-middle
 				span.navbar-toggler-icon
@@ -17,7 +19,8 @@ mixin menu()
 						a(class='nav-link' href='#review') ОТЗЫВЫ
 					li.nav-item.p-lg-3.p-2
 						a(class='nav-link' href='#map') КАРТА
-			.first-screen__menu__recall-button-style.d-lg-block.d-none
-			a(href='tel:89052209010').d-lg-inline-block.d-none.text-right.hop +7 905 220 90 10
-			.reacallus__button--wrapper
-				+recallus()
+			.first-screen__menu__recall-button-style.d-lg-block.d-none.mt-5
+				a(href='tel:89052209010').text-right.hop +7 905 220 90 10
+				.reacallus__button--wrapper.mt-2
+					+recallus()
+
