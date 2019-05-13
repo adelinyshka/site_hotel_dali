@@ -1,0 +1,19 @@
+include ../../blocks/button/button.pug
+mixin re2call_2()
+
+	button.my_button--recall(type='button', data-toggle='modal', data-target='#exampleModalCenter2')
+		| Перезвоните мне
+	// Modal
+	#exampleModalCenter2.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalCenterTitle2', aria-hidden='true')
+		.modal-dialog.modal-dialog-centered(role='document')
+			.modal-content
+				.modal-header
+					h5#exampleModalLongTitle2.modal-title Оставьте ваш номер и мы быстро перезвоним
+					button.close(type='button', data-dismiss='modal', aria-label='Close')
+						span(aria-hidden='true') ×
+				.modal-body
+					form
+						.form-group
+							input.form-control(type="text" name="tel" value="Введите ваш телефон" size="26" maxlength="15" width="220px" height="40px")
+				.modal-footer
+					+button('Отправить')

@@ -1,7 +1,8 @@
 import $ from 'jquery';
 window.$ = window.jQuery = $;
-import './js/common.js'
 import 'jquery'
+import './js/common.js'
+
 import './blocks/recallus__button/recallus.js'
 import './blocks/recallus__button/recallus.scss'
 import './blocks/first_screen/first_screen.js'

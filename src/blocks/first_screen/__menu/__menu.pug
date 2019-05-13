@@ -1,4 +1,6 @@
-include ../../../blocks/recallus__button/recallus
+include ../../../blocks/recallus__button/recallus.pug
+include ../../../blocks/recallus__button/re2call.pug
+include ../../../blocks/recallus__button/re2call_2.pug
 
 mixin menu()
 	header
@@ -6,8 +8,8 @@ mixin menu()
 			.navbar-brand.d-inline-block.align-middle.text-left
 				.logonew
 			.d-inline-block.d-lg-none.align-middle.text-center.hop +7 905 220 90 10
-				.reacallus__button--wrapper
-					+recallus()
+				.reacallus__button--wrapper.hop_no.p-1
+					+re2call_2()
 			.first-screen__menu__recall-button-style-center.d-lg-none
 			button(type='button' data-toggle='collapse' data-target="#navbarNav" aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation').navbar-toggler.align-middle
 				span.navbar-toggler-icon
@@ -22,5 +24,5 @@ mixin menu()
 			.first-screen__menu__recall-button-style.d-lg-block.d-none.mt-5
 				a(href='tel:89052209010').text-right.hop +7 905 220 90 10
 				.reacallus__button--wrapper.mt-2
-					+recallus()
+					+re2call()
 
