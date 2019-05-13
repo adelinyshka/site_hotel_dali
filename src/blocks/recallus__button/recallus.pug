@@ -1,6 +1,5 @@
 include ../../blocks/button/button.pug
 mixin recallus()
-    .reacallus__button--wrapper
         button.my_button--recall(type='button', data-toggle='modal', data-target='#exampleModal')
             | Перезвоните мне
         // Modal
@@ -18,19 +17,3 @@ mixin recallus()
                                 input.form-control(type="text" name="tel" value="Введите ваш телефон" size="26" maxlength="15" width="220px" height="40px")
                     .modal-footer
                         +button('Отправить')
-
-
-    //button.btn.btn-warning.my_button(type='button', data-toggle='modal', data-target='#exampleModal', data-whatever='') Заказать звонок
-    //#exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
-    //    .modal-dialog(role='document')
-    //        .modal-content
-    //            .modal-header
-    //                h5#exampleModalLabel.modal-title Заказать обратный звонок
-    //                button.close(type='button', data-dismiss='modal', aria-label='Close')
-    //                    span(aria-hidden='true') ×
-    //            .modal-body
-    //                form
-    //                    .form-group
-    //                        input( type="text" name="tel" value="Введите ваш телефон" size="26" maxlength="15" width="220px" height="40px")
-    //            .modal-footer
-    //                +button('Отправить')

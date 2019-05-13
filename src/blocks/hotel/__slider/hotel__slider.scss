@@ -1,26 +1,66 @@
-.hotel__slider__booking-rating {
-  background-image: url('./../../../img/hotel__slider__img/booking_rating.svg');
-  width:149px;
-  height:67px;
+.hotel__slider__booking-rating_m {
+  background-image: url('./../../../img/hotel__slider__img/rate_m.svg');
+  width:148px;
+  height:44px;
   position: absolute;
   top: 20px;
   right:1vw;
   z-index:2;
 }
 
+.hotel__slider__booking-rating_k {
+  background-image: url('./../../../img/hotel__slider__img/rate_k.svg');
+  width:148px;
+  height:44px;
+  position: absolute;
+  top: 20px;
+  right:1vw;
+  z-index:2;
+}
 
-//{
-//  background-image: url('../../../img/hotel__slider__img/stars.svg');
-//  width:149px;
-//  height:34px;
-//  position: absolute;
-//  top: 20px;
-//  right:1vw;
-//  z-index:2;
-//}
+.hotel__slider__booking-rating_n {
+  background-image: url('./../../../img/hotel__slider__img/rate_n.svg');
+  width:148px;
+  height:44px;
+  position: absolute;
+  top: 20px;
+  right:1vw;
+  z-index:2;
+}
+
+.hotel__slider__booking-rating_t {
+  background-image: url('./../../../img/hotel__slider__img/rate_t.svg');
+  width:148px;
+  height:44px;
+  position: absolute;
+  top: 20px;
+  right:1vw;
+  z-index:2;
+}
 
 @media (min-width: 320px) and (max-width: 399px) {
-  .hotel__slider__booking-rating {
+  .hotel__slider__booking-rating_m {
+    right:3.3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_k {
+    right:3.3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_n {
+    right:3.3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_t {
     right:3.3vw;
     position: absolute;
     top: 20px;
@@ -29,17 +69,61 @@
 }
 
 @media (min-width: 400px) and (max-width: 500px) {
-  .hotel__slider__booking-rating {
+  .hotel__slider__booking-rating_m {
+      right:3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_k {
+     right:3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_n {
     right:3vw;
     position: absolute;
     top: 20px;
     z-index:2;
   }
+
+  .hotel__slider__booking-rating_t {
+       right:3vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
 }
 
 @media (min-width: 501px) and (max-width: 600px) {
-  .hotel__slider__booking-rating {
+
+  .hotel__slider__booking-rating_m {
     right:2.7vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_k {
+   right:2.7vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_n {
+    right:2.7vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_t {
+   right:2.7vw;
     position: absolute;
     top: 20px;
     z-index:2;
@@ -47,7 +131,28 @@
 }
 
 @media (min-width: 601px) and (max-width: 750px) {
-  .hotel__slider__booking-rating {
+  .hotel__slider__booking-rating_m {
+    right:2.1vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_k {
+    right:2.1vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_n {
+   right:2.1vw;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+  }
+
+  .hotel__slider__booking-rating_t {
     right:2.1vw;
     position: absolute;
     top: 20px;

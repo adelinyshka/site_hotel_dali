@@ -1,0 +1,48 @@
+
+@media (min-width: 1281px) and (max-width: 1920px) {
+  .recall {
+    background: url('../../img/recall__img/bus_wom_1280.jpg');
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 85% center;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1280px) {
+  .recall {
+    background: url('../../img/recall__img/bus_wom_1280.jpg');
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 70% center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .recall {
+    background: url('../../img/recall__img/bus_wom_1280.jpg');
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 60% center;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .recall {
+    background: url('../../img/recall__img/bus_wom_767.jpg');
+    height: 350px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 85% center;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .recall {
+    background: url('../../img/recall__img/bus_wom_480.jpg');
+    height: 250px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: 85% center;
+  }
+}
