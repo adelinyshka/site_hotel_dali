@@ -6,6 +6,14 @@ $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
 });
 
+$('#input22,#input2, #input-2').focus(function(){
+    $(this).attr("value","");
+});
+
+$('#input22,#input2, #input-2').blur(function(){
+    $(this).attr("value","Введите ваш телефон");
+});
+
 // $('#exampleModal').on('show.bs.modal', function (event) {
 //     var button = $(event.relatedTarget) // Button that triggered the modal
 //     var recipient = button.data('whatever') // Extract info from data-* attributes
