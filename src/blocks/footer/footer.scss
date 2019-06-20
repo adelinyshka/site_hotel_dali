@@ -1,23 +1,22 @@
 .footer--bgcolor {
   height: auto;
-  background: rgba(161,102,70,.16);
-          //linear-gradient(180deg, rgba(118, 141, 167, 0) 39.23%, #768DA7 100%);
-  //box-shadow: 0px 0px 22px rgba(154, 184, 255, 0.25);
+  background-color:#403C3B;
+  font-family: "Exo";
+  color: white;
 }
 
 a.footer--text {
   text-decoration: none;
-  color: black;
-  font-family: 'Roboto';
+  font-family: "Exo";
+  color: white;
 }
 
-a.footer--text:hover {
-  color: #D33D61;
+a.footer--text:hover, :focus, :active {
+  color: #DEDEDE;
 }
 
 .footer--text {
   font-size: 1.3rem;
-  //font-weight: bold;
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
@@ -27,6 +26,5 @@ a.footer--text:hover {
 
   .footer--text {
     font-size: 1.3rem;
-    //font-weight: bold;
   }
 }

@@ -1,12 +1,10 @@
-// DE1D2F красный цвет с лого
-
 .my_button {
-  background-color: #a73d61;
+  background-color: #288A86;
   border-radius: 3px;
   border: 0 none;
   color: #fff;
   font-size: 14px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   text-decoration: none;
   min-height: 38px;
@@ -19,15 +17,26 @@
   width: 100%;
   max-width: 220px;
   min-width: 185.33px;
+
+  &:hover {
+    background-color: #005E5B;
+  }
+
+  &:active {
+    background-color: #005E5B;
+  }
+  &:focus {
+    background-color: #005E5B;
+  }
 }
 
 .my_button_discount {
-  background-color: #a73d61;
+  background-color: #288A86;
   border-radius: 3px;
   border: 0 none;
   color: #fff;
   font-size: 14px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   text-decoration: none;
   min-height: 37px;
@@ -40,15 +49,26 @@
   width: 100%;
   max-width: 365.33px;
   min-width: 180px;
+
+  &:hover {
+    background-color: #005E5B;
+  }
+
+  &:active {
+    background-color: #005E5B;
+  }
+  &:focus {
+    background-color: #005E5B;
+  }
 }
 
 .my_button--recall {
-  background-color: #a73d61;
+  background-color: #288A86;
   border-radius: 3px;
   border: 0 none;
   color: #fff;
   font-size: 14px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   text-decoration: none;
   min-height: 30px;
@@ -61,16 +81,27 @@
   width: 100%;
   max-width: 190px;
   min-width: 155.33px;
+
+  &:hover {
+    background-color: #005E5B;
+  }
+
+  &:active {
+    background-color: #005E5B;
+  }
+  &:focus {
+    background-color: #005E5B;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
   .my_button--recall {
-    background-color: #a73d61;
+    background-color: #288A86;
     border-radius: 3px;
     border: 0 none;
     color: #fff;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     text-decoration: none;
     min-height: 25px;
@@ -82,6 +113,17 @@
     display: inline-block;
     max-width: 140px;
     min-width: 140.33px;
+
+    &:hover {
+      background-color: #005E5B;
+    }
+
+    &:active {
+      background-color: #005E5B;
+    }
+    &:focus {
+      background-color: #005E5B;
+    }
   }
 }
 
